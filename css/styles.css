@@ -499,6 +499,7 @@ label {
   color: #106088;
   position: absolute;
   color: white;
+  z-index: 49;
 }
 
 .special-a {
