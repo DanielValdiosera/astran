@@ -96,6 +96,21 @@ h2 {
   margin: 0;
 }
 
+.oferta {
+  font-size: 3rem;
+  padding: 10px;
+  font-style: normal;
+  font-weight: normal;
+  color: gray;
+  margin: auto;
+  padding: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
 .h2-centered {
   font-size: 3rem;
   font-style: normal;
@@ -522,4 +537,18 @@ label {
   font-size: 2rem;
   font-weight: bolder;
   color: #106088;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.container2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: red;
 }
