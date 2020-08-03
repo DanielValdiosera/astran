@@ -1,13 +1,13 @@
 body {
   margin: 0;
-  font-family:'D-DIN', 'DIN', 'Roboto', sans-serif;
+  font-family: 'D-DIN', 'DIN', 'Roboto Condensed', sans-serif;
 }
 
 nav {
-  background-color: #3eb7ca;
+  background-color: white;
   max-width: 1138px;
   margin: auto;
-  padding: 20px 0;
+  padding: 0;
   text-align: center;
   font-size: 1.2rem;
   position: relative;
@@ -23,19 +23,19 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  background-color: #3eb7ca;
+  background-color: white;
 }
 
 nav a {
   display: block;
   padding: 0 10px;
-  color: #FFF;
+  color: #106088;
   line-height: 60px;
   text-decoration: none;
 }
 
 nav a:hover {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: #58b8c0;
   color: #fff;
 }
 
@@ -55,9 +55,11 @@ nav ul ul ul li {
   position: relative;
   top: -60px;
   left: 150px;
-  width: 260px;
+  width: 250px;
   font-size: 1rem;
+  line-height: 0.5;
 }
+
 
 /* Third and more */
 nav ul ul ul ul li {
@@ -91,6 +93,16 @@ h2 {
   font-style: normal;
   font-weight: normal;
   color: #106088;
+  margin: 0;
+}
+
+.h2-centered {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: normal;
+  color: #106088;
+  text-align: center;
+  margin: 0;
 }
 
 h3 {
@@ -157,6 +169,14 @@ label {
   text-align: justify;
 }
 
+.content-p-italic {
+  font-size: 1.5rem;
+  margin: 20px 60px 0 0;
+  line-height: 1.5;
+  text-align: justify;
+  font-style: italic;
+}
+
 .content-special-p {
   font-size: 1.75rem;
   margin: 20px 60px 0 0;
@@ -175,7 +195,8 @@ label {
 }
 
 .content-table-cell {
-vertical-align:top;
+  vertical-align: top;
+  width: 50%;
 }
 
 /* CLASSES */
@@ -191,7 +212,7 @@ vertical-align:top;
   max-width: 1138px;
   height: auto;
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 20px auto;
 }
 
 .footer-div {
@@ -240,9 +261,8 @@ vertical-align:top;
 
 .main-content-div {
   display: block;
-  margin: 20px auto 0 auto;
+  margin: 0 auto 0 auto;
   max-width: 1138px;
-
 }
 
 .h2div {
@@ -255,6 +275,28 @@ vertical-align:top;
   height: 80px;
 }
 
+.h2div-alt {
+  border-color: #78a8c0;
+  border-width: 8px;
+  border-style: solid;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  height: auto;
+  padding-left: 10px;
+}
+
+.h2div-centered {
+  border-color: #78a8c0;
+  border-width: 8px;
+  border-style: solid;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  height: auto;
+  text-align: center;
+}
 .capacitacion-table {
   border: 1;
 }
@@ -390,7 +432,6 @@ vertical-align:top;
   text-decoration: none;
   font-family: D-DIN;
   text-align: right;
-  but
 }
 
 .btn2:hover {
@@ -406,4 +447,80 @@ vertical-align:top;
 .align-right-div {
   text-align: center;
   margin: 0 0 20px 0;
+}
+
+.side-btn-div {
+  position: fixed;
+  right: 0;
+  bottom: 50%;
+  top: 50%;
+  width: 60px;
+  height: 110px;
+  padding: 0;
+  border: 0;
+  color: white;
+  vertical-align: middle;
+}
+
+.side-img {
+  width: 40px;
+  display: block;
+  margin: 5px 0 5px 5px;
+  vertical-align: middle;
+  src: url(bubble-white.png);
+  background-color: #58b8c0;
+  padding: 5px 5px 5px 5px;
+}
+
+.side-img:hover {
+  background-color: #b0c8e0;
+}
+
+.overvideo {
+  font-size: 3rem;
+  padding: 10px;
+  font-style: normal;
+  font-weight: normal;
+  color: #106088;
+  position: absolute;
+  bottom: 250px;
+  color: white;
+}
+
+.special-a {
+  display: block;
+  padding: 0 10px;
+  color: #106088;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border-width: 1px;
+  font-size: 1rem;
+  background-color: white;
+  color: #106088;
+  border-color: #106088;
+  height: 30px;
+}
+
+.search-img {
+  vertical-align: middle;
+}
+
+.nice-img {
+  border-radius: 5px;
+  margin: 25px 10px 10px 10px;
+  width: 80%;
+}
+
+.nice-h3 {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #106088;
 }
