@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "DIN";
+  src: url("fonts/FF_DIN_Medium.otf");
+}
+
+@font-face {
+  font-family: "D-DIN";
+  src: url("fonts/D-DINCondensed.otf");
+}
+
 body {
   margin: 0;
   font-family:'D-DIN', 'DIN', 'Roboto Condensed', sans-serif;
@@ -137,9 +147,46 @@ h2 {
   margin: 0;
 }
 
+.h2-centered-bigger {
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: lighter;
+  color: #106088;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.h2-white {
+  font-size: 3rem;
+  padding: 10px;
+  font-style: normal;
+  font-weight: lighter;
+  color: white;
+  margin: 0;
+  text-align: center;
+  font-family: 'D-DIN Condensed';
+}
+
+.h2-white-alt {
+  font-size: 4rem;
+  padding: 0;
+  font-style: normal;
+  font-weight: lighter;
+  color: white;
+  margin: 0;
+  text-align: left;
+  font-family: 'D-DIN Condensed';
+}
+
 h3 {
   font-size: 1.5rem;
   font-weight: bolder;
+}
+
+.h3-blue {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #186088;
 }
 
 h4 {
@@ -147,6 +194,34 @@ h4 {
   color: white;
   margin: 0;
   padding: 20px 0;
+}
+
+.h4-blue {
+  text-align: left;
+  color: #186088;
+  margin: 10px 0 0 80px;
+  padding: 10px 0 0 0;
+  font-size: 2rem;
+}
+
+.h4-blue-alt {
+  text-align: left;
+  color: #186088;
+  margin: 10px 0 0 0;
+  padding: 10px 0 0 0;
+  font-size: 2rem;
+}
+
+.h4-light-blue {
+  text-align: right;
+  color: #3898c8;
+  font-size: 2rem;
+}
+
+.h4-light-blue-alt {
+  text-align: left;
+  color: #3898c8;
+  font-size: 2rem;
 }
 
 h5 {
@@ -196,10 +271,54 @@ label {
 
 .content-p {
   font-size: 1.5rem;
-  margin: 20px 60px 0 0;
+  margin: 20px 60px 20px 0;
   line-height: 1.5;
   text-align: justify;
 }
+
+.content-p-lineheight {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.content-p-lineheight-left {
+  font-size: 1.5rem;
+  text-align: left;
+  margin: 0;
+}
+
+.content-p-lineheight-right {
+  font-size: 1.5rem;
+  text-align: right;
+  margin: 0;
+}
+
+.content-p-nomargin {
+  font-size: 1.5rem;
+  margin: 0 0 40px 80px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.content-p-white {
+  font-size: 1.2rem;
+  margin: 20px 60px 20px 0;
+  line-height: 1.5;
+  text-align: justify;
+  color: white;
+  font-weight: lighter;
+}
+
+.content-p-white-centered {
+  font-size: 1.2rem;
+  margin: 40px 0 0 0;
+  padding: 0;
+  line-height: 1.5;
+  text-align: justify;
+  color: white;
+  font-weight: lighter;
+}
+
 
 .content-p-italic {
   font-size: 1.5rem;
@@ -372,6 +491,14 @@ label {
   margin: 0 20px;
 }
 
+.big-numbers-blue-p {
+  font-size: 5rem;
+  font-weight: bolder;
+  color: #7898a8;
+  vertical-align: top;
+  margin: 0 50px 0 0;
+}
+
 .white-text-p {
   color: white;
   margin: 20px;
@@ -508,7 +635,7 @@ label {
   margin: 5px 0 5px 5px;
   vertical-align: middle;
   src: url(bubble-white.png);
-  background-color: #58b8c0;
+  background-color: #1868a0;
   padding: 5px 5px 5px 5px;
 }
 
@@ -556,7 +683,7 @@ label {
   background-color: white;
   color: #106088;
   border-color: #106088;
-  height: 30px;
+  height: 25px;
 }
 
 .search-img {
@@ -587,4 +714,92 @@ label {
   transform: translate(-50%, -50%);
   text-align: center;
   background-color: red;
+}
+
+.blue-box-div {
+  margin: 0;
+  background-color: #1868a0;
+}
+
+.light-blue-box-div {
+  margin: 0 0 0 0;
+  background-color: #5090b8;
+  padding: 3% 3% 3% 6%;
+}
+
+.light-blue-clear-box-div {
+  margin: 0 0 0 0;
+  border: 5px #5090b8 solid;
+  padding: 3% 3% 3% 6%;
+}
+
+.retos-div {
+  margin: 0;
+}
+
+.td-rowspan-4 {
+  width: 45%;
+}
+
+.center-img {
+  width: 80%;
+  display: block;
+  margin-top: 0;
+  margin-right: 0;
+}
+
+.center-img-alt {
+  height: 75%;
+  display: inline-block;
+  margin: auto;
+  padding: 5%;
+  right: 50px;
+}
+
+.nopadding {
+  padding: 0;
+}
+
+.vl {
+  border-left: 6px solid #70a8b8;
+  height: auto;
+  margin: 0 50%;
+  height: 250px;
+}
+
+.beneficios-div {
+  margin: 20px 0;
+}
+
+.align-content-top {
+
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  height: 40px;
+  background-color: #1868a0;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 6px;
+  padding: 5px 0;
+  right: 60px;
+  top: 5px;
+  font-size: 1.1rem;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
