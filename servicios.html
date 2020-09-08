@@ -7,6 +7,8 @@
   <link rel="icon" href="favicon.png">
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <script src="js/cdn/jquery-3.5.0.js"></script>
+  <script src="js/functions.service.js"></script>
 </head>
 
 <body>
@@ -55,16 +57,19 @@
             <ul>
               <li><a>PRÁCTICAS DE GESTIÓN</a>
                 <ul>
-                  <li><a href="administracion-proyectos-predictivos.html" class="special-a">ADMINISTRACIÓN DE PROYECTOS PREDICTIVOS, ÁGILES E HÍBRIDOS</a></li>
-                  <li><a href="programa-everest.html">PROGRAMA EVEREST PARA CERTIFICACIÓN PMP®</a></li>
-                  <li><a href="capacitacion-administracion-cambio.html">ADMINISTRACIÓN DEL CAMBIO</a></li>
+                  <li><a href="administracion-proyectos-predictivos.html" class="special-a">1. ADMINISTRACIÓN DE PROYECTOS</a></li>
+                  <li><a class="special-a" href="administracion-proyectos-predictivos.html#1">PREDICTIVOS</a></li>
+                  <li><a class="special-a" href="administracion-proyectos-predictivos.html#2">ÁGILES</a></li>
+                  <li><a class="special-a" href="administracion-proyectos-predictivos.html#3">HÍBRIDOS</a></li>
+                  <li><a href="programa-everest.html">2. PROGRAMA EVEREST PARA CERTIFICACIÓN PMP®</a></li>
+                  <li><a href="capacitacion-administracion-cambio.html">3. ADMINISTRACIÓN DEL CAMBIO</a></li>
                 </ul>
               </li>
               <li><a>COMPETENCIAS DIGITALES</a>
                 <ul>
-                  <li><a href="administracion-proyectos-ms-project.html">ADMINISTRACIÓN DE PROYECTOS (MS PROJECT)</a></li>
-                  <li><a href="inteligencia-empresarial-ms-powerbi.html">INTELIGENCIA EMPRESARIAL (MS POWER BI)</a></li>
-                  <li><a href="colaboracion-equipos-ms-teams.html">COLABORACIÓN DE EQUIPOS (MS TEAMS)</a></li>
+                  <li><a href="administracion-proyectos-ms-project.html">4. ADMINISTRACIÓN DE PROYECTOS (MS PROJECT)</a></li>
+                  <li><a href="inteligencia-empresarial-ms-powerbi.html">5. INTELIGENCIA EMPRESARIAL (MS POWER BI)</a></li>
+                  <li><a href="colaboracion-equipos-ms-teams.html">6. COLABORACIÓN DE EQUIPOS (MS TEAMS)</a></li>
                 </ul>
               </li>
             </ul>
@@ -100,7 +105,7 @@
       <tbody class="servicios-tbody">
         <tr class="servicios-tr" height="50%">
           <td width="30%" class="servicios-td">
-            <div class="servicios-div">
+            <div class="servicios-div" id="service-consultancy">
               <img src="images/consultoria.jpg" alt="" class="servicios-img">
               <p class="servicios-p">Consultoría</p>
             </div>
@@ -111,7 +116,7 @@
               </div>
             </td>
             <td width="30%" class="servicios-td">
-              <div class="servicios-div">
+              <div class="servicios-div" id="service-implementation">
                 <img src="images/servicios-implementacion.jpg" alt="" class="servicios-img">
                 <p class="servicios-p">Implementación</p>
               </div>
@@ -119,24 +124,16 @@
         </tr>
         <tr class="servicios-tr">
           <td width="30%" class="servicios-td">
-            <div class="servicios-div">
+            <div class="servicios-div" id="service-tecnology">
               <img src="images/servicios-tecnologia.jpg" alt="" class="servicios-img-alt">
               <p class="servicios-p">Tecnología</p>
             </div>
           </td>
-          <td width="40%" class="servicios-td">
-            <p class="servicios-p2">Inteligencia Empresarial</p>
-            <hr width="10%">
-            <p class="servicios-p2">Planeación y Seguimiento de Proyectos:<br />Predictivos y/o Adaptativos</p>
-            <hr width="10%">
-            <p class="servicios-p2">Optimización del Portafilio</p>
-            <hr width="10%">
-            <p class="servicios-p2">Gestión de Beneficios</p>
-            <hr width="10%">
-            <p class="servicios-p2">Administración del Cambio</p>
+          <td width="40%" class="servicios-td" id="options-services">
+            <!--Servicios astran-->
           </td>
           <td width="30%" class="servicios-td">
-            <div class="servicios-div">
+            <div class="servicios-div" id="service-training">
               <img src="images/servicios3.jpg" alt="" class="servicios-img-alt">
               <p class="servicios-p">Capacitación</p>
             </div>
@@ -144,6 +141,7 @@
         </tr>
       </tbody>
     </table>
+    
   </div>
   <footer>
     <div class="footer-div">
