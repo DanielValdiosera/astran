@@ -6,6 +6,7 @@
   <title>Astran – Acerca de</title>
   <link rel="icon" href="favicon.png">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/fdeeb5d331e922ce2f968bd0c43d90d6.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
 </head>
 
@@ -22,26 +23,21 @@
             <ul>
               <li><a href="inteligencia-empresarial.html">INTELIGENCIA EMPRESARIAL</a></li>
               <li><a href="optimizacion-portafolio-iniciativas.html" class="special-a2">OPTIMIZACIÓN DEL PORTAFOLIO DE INICIATIVAS</a></li>
-              <li><a href="planeacion-seguimiento-proyectos.html" class="special-a">PLANEACIÓN Y SEGUIMIENTO DE PROYECTOS</a>
-                <ul>
-                  <li><a href="planeacion-seguimiento-proyectos.html">PREDICTIVOS</a></li>
-                  <li><a href="planeacion-seguimiento-proyectos.html">ADAPTATIVOS (ÁGILES E HÍBRIDOS)</a></li>
-                </ul>
-              </li>
-              <li><a href="gestion-beneficios.html">GÉSTION DE BENEFICIOS</a></li>
+              <li><a href="planeacion-seguimiento-proyectos.html" class="special-a">PLANEACIÓN Y SEGUIMIENTO DE PROYECTOS<a></li>
+              <li><a href="gestion-beneficios.html">GESTIÓN DE BENEFICIOS</a></li>
               <li><a href="administracion-cambio.html">ADMINISTRACIÓN DEL CAMBIO</a></li>
             </ul>
           </li>
           <li><a href="implementacion-expertos.html">IMPLEMENTACIÓN</a>
             <ul>
               <li><a href="implementacion-especialidades.html#gestion">GESTIÓN DE PROYECTOS</a></li>
-              <li><a href="implementacion-especialidades.html#tecnologia" class="special-a">TECNOLOGÍA MICROSOFT PARA GESTIÓN DE PROYECTOS</a></li>
+              <li><a href="implementacion-especialidades.html#tecnologia" class="special-a">TECNOLOGÍA MICROSOFT<br />PARA GESTIÓN DE PROYECTOS</a></li>
               <li><a href="implementacion-especialidades.html#administracion">ADMINISTRACIÓN DEL CAMBIO</a></li>
             </ul>
           </li>
           <li><a>TECNOLOGÍA</a>
             <ul>
-              <li><a  href="tecnologia-inteligencia-empresarial.html">INTELIGENCIA EMPRESARIAL</a></li>
+              <li><a href="tecnologia-inteligencia-empresarial.html">INTELIGENCIA EMPRESARIAL</a></li>
               <li><a href="administracion-empresarial-proyectos-ms-ppm.html" class="special-a">ADMINISTRACIÓN EMPRESARIAL DE PROYECTOS CON MICROSOFT</a></li>
               <li><a href="#">ACELERADORES ASTRAN</a>
                 <ul>
@@ -79,98 +75,108 @@
       <li class="main-li"><a href="articulos.html">ARTÍCULOS</a></li>
       <li class="main-li"><a href="contacto.html">CONTACTO</a></li>
       <li class="main-li">
-        <img class="search-img" src="images/search-blue.png" alt="" width="20px">
+        <span onclick="search()" style="cursor: pointer;"><img class="search-img" src="images/search-blue.png" alt="" width="20px"></span>
       </li>
       <li class="main-li">
-        <form class="" action="index.html" method="post">
-          <input class="search-input" type="text" name="" value="">
-        </form>
+        <span class="ui-widget">
+          <input id="tags" class="search-input">
+          <span id="search"></span>
+        </span>
       </li>
     </ul>
   </nav>
-  <div class="side-btn-div" type="button" name="button">
-    <div class="tooltip">
-      <span class="tooltiptext">Envíenos <br />un Correo</span>
-      <a href="#"><img alt="Contacto" class="side-img" src="images/mail-white.png"></a>
+  <div id="content-container">
+    <div class="side-btn-div" type="button" name="button">
+      <div class="tooltip">
+        <span class="tooltiptext">Envíenos <br />un Correo</span>
+        <a href="#"><img alt="Contacto" class="side-img" src="images/mail-white.png"></a>
+      </div>
+      <div class="tooltip">
+        <span class="tooltiptext">Llámenos al <br />+52 (55) 5336-4375</span>
+        <a href="#"><img alt="Contacto" class="side-img" src="images/phone-white.png"></a>
+      </div>
     </div>
-    <div class="tooltip">
-      <span class="tooltiptext">Llámenos al <br />+52 (55) 5336-4375</span>
-      <a href="#"><img alt="Contacto" class="side-img" src="images/phone-white.png"></a>
+    <div class="main-content-div">
+      <table class="capacitacion-table">
+        <tr class="content-table-cell">
+          <td colspan="2" class="content-table-cell">
+
+          </td>
+        </tr>
+        <tr class="content-table-cell">
+          <td class="content-table-cell">
+            <p class="content-special-p">“Transformamos la Gestión de Proyectos en Inteligencia Empresarial y Bienestar.” </p>
+            <p class="content-p">En ASTRAN brindamos servicios de <span class="span-bold">Consultoría, Implementación, Tecnología y Capacitación</span> con un enfoque integral que facilita la colaboración, y aporta valor y bienestar en la
+              transformación de las organizaciones.<br /><br />Nos aseguramos de vincular la estrategia de nuestros clientes con sus iniciativas y proyectos, seleccionando los de mayor contribución a la organización. Proporcionamos servicios de gestión
+              de proyectos a distancia e implementación de soluciones vía remota.<br /><br />Tenemos más de 16 años de experiencia en proyectos de alcance nacional e internacional, y nuestros consultores están actualizados en las mejores prácticas y
+              metodologías. </p>
+            <img class="nice-img" src="images/mountain-landscape.jpg" alt="">
+          </td>
+          <td class="content-table-cell">
+            <img class="nice-img" src="images/tree.jpg" alt="" width="80%">
+            <p class="content-p">Reconocemos el valor de nuestros socios de negocio, somos <span class="span-bold">socios <span class="span-italic">Gold</span> de <span class="span-italic">Microsoft</span></span> <span class="span-italic">(Project and
+                Portfolio Management, Cloud Productivity, Business Analitycs, Collaboration and Content),</span> para la implementación de soluciones de proyectos, colaboración e inteligencia de negocios.<br /><br />Además, somos <span
+                class="span-italic">Registered Education Provider y Consultant Provider</span> por el <span class="span-bold">Project Management Institute (PMI®).</span><br /><br />Asimismo, fomentamos el conocimiento, liderazgo, colaboración,
+              desarrollo humano y bienestar de nuestros clientes y de todos los que formamos este gran equipo ASTRAN.<br /><br />Esta cultura de colaboración nos hace sensibles a nuestro entorno, por lo que también nos importa apoyar a comunidades
+              vulnerables bajo un enfoque de responsabilidad social.<br /><br />En ASTRAN logramos nuestras metas con una visión común e inspiradora y amando lo que hacemos día a día.</p>
+            <img class="nice-img" src="images/desert.jpg" alt="">
+          </td>
+        </tr>
+      </table>
     </div>
   </div>
-  <div class="main-content-div">
-    <table class="capacitacion-table">
-      <tr class="content-table-cell">
-        <td colspan="2" class="content-table-cell">
-
-        </td>
-      </tr>
-      <tr class="content-table-cell">
-        <td class="content-table-cell">
-          <p class="content-special-p">“Transformamos la Gestión de Proyectos en Inteligencia Empresarial y Bienestar.” </p>
-          <p class="content-p">En ASTRAN brindamos servicios de <span class="span-bold">Consultoría, Implementación, Tecnología y Capacitación</span> con un enfoque integral que facilita la colaboración, y aporta valor y bienestar en la
-            transformación de las organizaciones.<br /><br />Nos aseguramos de vincular la estrategia de nuestros clientes con sus iniciativas y proyectos, seleccionando los de mayor contribución a la organización. Proporcionamos servicios de gestión
-            de proyectos a distancia e implementación de soluciones vía remota.<br /><br />Tenemos más de 16 años de experiencia en proyectos de alcance nacional e internacional, y nuestros consultores están actualizados en las mejores prácticas y
-            metodologías. </p>
-          <img class="nice-img" src="images/mountain-landscape.jpg" alt="">
-        </td>
-        <td class="content-table-cell">
-          <img class="nice-img" src="images/tree.jpg" alt="" width="80%">
-          <p class="content-p">Reconocemos el valor de nuestros socios de negocio, somos <span class="span-bold">socios <span class="span-italic">Gold</span> de <span class="span-italic">Microsoft</span></span> <span class="span-italic">(Project and
-              Portfolio Management, Cloud Productivity, Business Analitycs, Collaboration and Content),</span> para la implementación de soluciones de proyectos, colaboración e inteligencia de negocios.<br /><br />Además, somos <span
-              class="span-italic">Registered Education Provider y Consultant Provider</span> por el <span class="span-bold">Project Management Institute (PMI®).</span><br /><br />Asimismo, fomentamos el conocimiento, liderazgo, colaboración,
-            desarrollo humano y bienestar de nuestros clientes y de todos los que formamos este gran equipo ASTRAN.<br /><br />Esta cultura de colaboración nos hace sensibles a nuestro entorno, por lo que también nos importa apoyar a comunidades
-            vulnerables bajo un enfoque de responsabilidad social.<br /><br />En ASTRAN logramos nuestras metas con una visión común e inspiradora y amando lo que hacemos día a día.</p>
-          <img class="nice-img" src="images/desert.jpg" alt="">
-        </td>
-      </tr>
-    </table>
+  <div>
+    <section>
+      <div id="data-container"></div>
+      <div id="pagination"></div>
+    </section>
   </div>
 
+  <footer>
+    <div class="footer-div">
+      <table class="footer-table">
+        <tr>
+          <td class="footer-td">
+            <div class="footer-left-div">
+              <h4>Site Map</h4>
+            </div>
+          </td>
+          <td class="footer-td">
+            <div class="footer-middle-div">
+              <h4>Contacto</h4>
+              <h5>CDMX</h5>
+              <p class="footer-p">+52 (55) 5336-4375</p>
+              <a class="footer-a" href="mailto:atencion@astran.com.mx">
+                <p>atencion@astran.com.mx</p>
+              </a>
+              <h5>BAJÍO</h5>
+              <p class="footer-p">+52 (442) 173-2923</p>
+              <a class="footer-a" href="mailto:atencionbajio@astran.com.mx">
+                <p>atencionbajio@astran.com.mx</p>
+              </a>
+            </div>
+          </td>
+          <td class="footer-td">
+            <div class="footer-right-div">
+              <h4>Informacion Legal</h4>
+              <a class="footer-a" href="aviso-de-privacidad.html">
+                <p>Aviso de privacidad Grupo ASTRAN</p>
+              </a>
+              <a class="footer-a" href="https://privacy.microsoft.com/en-us/privacystatement">
+                <p>Aviso de privacidad Microsoft</p>
+              </a>
+              <p class="footer-p-small">El logotipo de PMI Registered Education Provider es una marca registrada del Project Management Institute, Inc.<br>
+                <a href="https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default" class="footer-a">Terms
+                  of Use</a> © 2015 Microsoft Corporation. All rights reserved.<br />This site is hosted for Microsoft by Astran, Todos los derechos reservados Astran.</p>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </footer>
+  <script src="js/cdn/jquery-3.5.0.js"></script>
+  <script src="js/cdn/jquery-ui.js"></script>
+  <script src="js/pagination.js"></script>
+  <script src="js/search.js"></script>
 </body>
-<footer>
-  <div class="footer-div">
-    <table class="footer-table">
-      <tr>
-        <td class="footer-td">
-          <div class="footer-left-div">
-            <h4>Site Map</h4>
-          </div>
-        </td>
-        <td class="footer-td">
-          <div class="footer-middle-div">
-            <h4>Contacto</h4>
-            <h5>CDMX</h5>
-            <p class="footer-p">+52 (55) 5336-4375</p>
-            <a class="footer-a" href="mailto:atencion@astran.com.mx">
-              <p>atencion@astran.com.mx</p>
-            </a>
-            <h5>BAJÍO</h5>
-            <p class="footer-p">+52 (442) 173-2923</p>
-            <a class="footer-a" href="mailto:atencionbajio@astran.com.mx">
-              <p>atencionbajio@astran.com.mx</p>
-            </a>
-          </div>
-        </td>
-        <td class="footer-td">
-          <div class="footer-right-div">
-            <h4>Estamos en</h4>
-            <a href="#"><img src="images/linkedin.png" alt="" class="social-img"></a>
-            <h4>Informacion Legal</h4>
-            <a class="footer-a" href="aviso-de-privacidad.html">
-              <p>Aviso de privacidad Grupo ASTRAN</p>
-            </a>
-            <a class="footer-a" href="https://privacy.microsoft.com/en-us/privacystatement">
-              <p>Aviso de privacidad Microsoft</p>
-            </a>
-            <p class="footer-p-small">El logotipo de PMI Registered Education Provider es una marca registrada del Project Management Institute, Inc.<br>
-              <a href="https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default" class="footer-a">Terms
-                of Use</a> © 2015 Microsoft Corporation. All rights reserved.<br />This site is hosted for Microsoft by Astran, Todos los derechos reservados Astran.</p>
-          </div>
-        </td>
-      </tr>
-    </table>
-  </div>
-</footer>
-
 </html>

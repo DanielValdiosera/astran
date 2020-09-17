@@ -22,20 +22,15 @@
             <ul>
               <li><a href="inteligencia-empresarial.html">INTELIGENCIA EMPRESARIAL</a></li>
               <li><a href="optimizacion-portafolio-iniciativas.html" class="special-a2">OPTIMIZACIÓN DEL PORTAFOLIO DE INICIATIVAS</a></li>
-              <li><a href="planeacion-seguimiento-proyectos.html" class="special-a">PLANEACIÓN Y SEGUIMIENTO DE PROYECTOS</a>
-                <ul>
-                  <li><a href="planeacion-seguimiento-proyectos.html">PREDICTIVOS</a></li>
-                  <li><a href="planeacion-seguimiento-proyectos.html">ADAPTATIVOS (ÁGILES E HÍBRIDOS)</a></li>
-                </ul>
-              </li>
-              <li><a href="gestion-beneficios.html">GÉSTION DE BENEFICIOS</a></li>
+              <li><a href="planeacion-seguimiento-proyectos.html" class="special-a">PLANEACIÓN Y SEGUIMIENTO DE PROYECTOS<a></li>
+              <li><a href="gestion-beneficios.html">GESTIÓN DE BENEFICIOS</a></li>
               <li><a href="administracion-cambio.html">ADMINISTRACIÓN DEL CAMBIO</a></li>
             </ul>
           </li>
           <li><a href="implementacion-expertos.html">IMPLEMENTACIÓN</a>
             <ul>
               <li><a href="implementacion-especialidades.html#gestion">GESTIÓN DE PROYECTOS</a></li>
-              <li><a href="implementacion-especialidades.html#tecnologia" class="special-a">TECNOLOGÍA MICROSOFT PARA GESTIÓN DE PROYECTOS</a></li>
+              <li><a href="implementacion-especialidades.html#tecnologia" class="special-a">TECNOLOGÍA MICROSOFT<br />PARA GESTIÓN DE PROYECTOS</a></li>
               <li><a href="implementacion-especialidades.html#administracion">ADMINISTRACIÓN DEL CAMBIO</a></li>
             </ul>
           </li>
@@ -45,8 +40,8 @@
               <li><a href="administracion-empresarial-proyectos-ms-ppm.html" class="special-a">ADMINISTRACIÓN EMPRESARIAL DE PROYECTOS CON MICROSOFT</a></li>
               <li><a href="#">ACELERADORES ASTRAN</a>
                 <ul>
-                  <li><a href="#">PMO EXPRESS</a></li>
-                  <li><a href="#">PMO ELEMENTAL</a></li>
+                  <li><a href="pmo-express.html">PMO EXPRESS</a></li>
+                  <li><a href="pmo-elemental.html">PMO ELEMENTAL</a></li>
                 </ul>
               </li>
             </ul>
@@ -79,12 +74,13 @@
       <li class="main-li"><a href="articulos.html">ARTÍCULOS</a></li>
       <li class="main-li"><a href="contacto.html">CONTACTO</a></li>
       <li class="main-li">
-        <img class="search-img" src="images/search-blue.png" alt="" width="20px">
+        <span onclick="search()" style="cursor: pointer;"><img class="search-img" src="images/search-blue.png" alt="" width="20px"></span>
       </li>
       <li class="main-li">
-        <form class="" action="index.html" method="post">
-          <input class="search-input" type="text" name="" value="">
-        </form>
+        <span class="ui-widget">
+          <input id="tags" class="search-input">
+          <span id="search"></span>
+        </span>
       </li>
     </ul>
   </nav>
@@ -130,8 +126,6 @@
           </td>
           <td class="footer-td">
             <div class="footer-right-div">
-              <h4>Estamos en</h4>
-              <a href="#"><img src="images/linkedin.png" alt="" class="social-img"></a>
               <h4>Informacion Legal</h4>
               <a class="footer-a" href="aviso-de-privacidad.html">
                 <p>Aviso de privacidad Grupo ASTRAN</p>

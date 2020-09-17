@@ -334,6 +334,22 @@ label {
   text-align: center;
 }
 
+.content-p-centered-grey {
+  font-size: 1.5rem;
+  margin: 20px;
+  line-height: 1.5;
+  text-align: center;
+  color: #484848;
+}
+
+.content-p-centered-bigger {
+  font-size: 2rem;
+  margin: 20px;
+  line-height: 1.5;
+  text-align: center;
+  color: #1868a0;
+}
+
 .content-p-centered-white {
   font-size: 1.5rem;
   margin: 20px;
@@ -733,6 +749,8 @@ a {
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   font-family: "din_condensedbold";
+  width: 124px;
+
 }
 
 .btn1:hover {
@@ -1048,6 +1066,7 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
+  cursor: pointer;
 }
 
 .servicios-tbody {
@@ -1092,10 +1111,12 @@ a {
 }
 
 .experiencia-table {
-  border: 5px solid #70a8b8;
+  border: none;
   width: 100%;
   border-collapse: collapse;
-  margin-bottom: 20px
+  margin-bottom: 20px;
+  margin-top: 50px;
+
 }
 
 .experiencia-tbody {
@@ -1106,16 +1127,36 @@ a {
 
 }
 .experiencia-td {
-  border: 5px solid #70a8b8;
+  border: none;
+  width: 25%;
+  padding: 0;
+  border-right: 3px solid #70a8b8;
+}
+
+.experiencia-td2 {
+  border: none;
   width: 25%;
   padding: 0;
 }
 
 .experiencia-td-alt {
-  border: 5px solid #70a8b8;
+  border: none;
   width: 25%;
   padding: 0;
-  background-color: #1868a0;
+  border-right: 3px solid #70a8b8;
+}
+
+.experiencia-td-alt2 {
+  border: none;
+  width: 25%;
+  padding: 0;
+}
+
+.experiencia-big {
+  font-size: 6rem;
+  text-align: center;
+  margin: 0;
+  color: #1868a0;
 }
 
 .social-img {

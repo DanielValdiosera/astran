@@ -6,6 +6,7 @@
   <title>Astran – Implementación con Expertos</title>
   <link rel="icon" href="favicon.png">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/fdeeb5d331e922ce2f968bd0c43d90d6.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
 </head>
 
@@ -22,20 +23,15 @@
             <ul>
               <li><a href="inteligencia-empresarial.html">INTELIGENCIA EMPRESARIAL</a></li>
               <li><a href="optimizacion-portafolio-iniciativas.html" class="special-a2">OPTIMIZACIÓN DEL PORTAFOLIO DE INICIATIVAS</a></li>
-              <li><a href="planeacion-seguimiento-proyectos.html" class="special-a">PLANEACIÓN Y SEGUIMIENTO DE PROYECTOS</a>
-                <ul>
-                  <li><a href="planeacion-seguimiento-proyectos.html">PREDICTIVOS</a></li>
-                  <li><a href="planeacion-seguimiento-proyectos.html">ADAPTATIVOS (ÁGILES E HÍBRIDOS)</a></li>
-                </ul>
-              </li>
-              <li><a href="gestion-beneficios.html">GÉSTION DE BENEFICIOS</a></li>
+              <li><a href="planeacion-seguimiento-proyectos.html" class="special-a">PLANEACIÓN Y SEGUIMIENTO DE PROYECTOS<a></li>
+              <li><a href="gestion-beneficios.html">GESTIÓN DE BENEFICIOS</a></li>
               <li><a href="administracion-cambio.html">ADMINISTRACIÓN DEL CAMBIO</a></li>
             </ul>
           </li>
           <li><a href="implementacion-expertos.html">IMPLEMENTACIÓN</a>
             <ul>
               <li><a href="implementacion-especialidades.html#gestion">GESTIÓN DE PROYECTOS</a></li>
-              <li><a href="implementacion-especialidades.html#tecnologia" class="special-a">TECNOLOGÍA MICROSOFT PARA GESTIÓN DE PROYECTOS</a></li>
+              <li><a href="implementacion-especialidades.html#tecnologia" class="special-a">TECNOLOGÍA MICROSOFT<br />PARA GESTIÓN DE PROYECTOS</a></li>
               <li><a href="implementacion-especialidades.html#administracion">ADMINISTRACIÓN DEL CAMBIO</a></li>
             </ul>
           </li>
@@ -79,134 +75,143 @@
       <li class="main-li"><a href="articulos.html">ARTÍCULOS</a></li>
       <li class="main-li"><a href="contacto.html">CONTACTO</a></li>
       <li class="main-li">
-        <img class="search-img" src="images/search-blue.png" alt="" width="20px">
+        <span onclick="search()" style="cursor: pointer;"><img class="search-img" src="images/search-blue.png" alt="" width="20px"></span>
       </li>
       <li class="main-li">
-        <form class="" action="index.html" method="post">
-          <input class="search-input" type="text" name="" value="">
-        </form>
+        <span class="ui-widget">
+          <input id="tags" class="search-input">
+          <span id="search"></span>
+        </span>
       </li>
     </ul>
   </nav>
-  <div class="side-btn-div" type="button" name="button">
-    <div class="tooltip">
-      <span class="tooltiptext">Envíenos <br />un Correo</span>
-      <a href="#"><img alt="Contacto" class="side-img" src="images/mail-white.png"></a>
+  <div id="content-container">
+    <div class="side-btn-div" type="button" name="button">
+      <div class="tooltip">
+        <span class="tooltiptext">Envíenos <br />un Correo</span>
+        <a href="#"><img alt="Contacto" class="side-img" src="images/mail-white.png"></a>
+      </div>
+      <div class="tooltip">
+        <span class="tooltiptext">Llámenos al <br />+52 (55) 5336-4375</span>
+        <a href="#"><img alt="Contacto" class="side-img" src="images/phone-white.png"></a>
+      </div>
     </div>
-    <div class="tooltip">
-      <span class="tooltiptext">Llámenos al <br />+52 (55) 5336-4375</span>
-      <a href="#"><img alt="Contacto" class="side-img" src="images/phone-white.png"></a>
+    <div class="main-content-div">
+      <div class="blue-box-div">
+        <table>
+          <tr>
+            <td width="50%">
+              <h2 class="h2-white">Implementación con Expertos</h2>
+            </td>
+            <td>
+              <p class="content-p-white">Actualmente las organizaciones requieren apoyo en la implementación de sus proyectos a través de <span class="span-bold">expertos que contribuyen a la productividad</span> con una baja curva de aprendizaje y compromiso de servicio.</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="retos-div">
+        <table width="100%">
+          <tr>
+            <td class="td-rowspan-4" rowspan="4"><h2 class="h2-centered">RETOS DE LAS<br/> ORGANIZACIONES</h2></td>
+            <td width="10%" rowspan="4">
+              <img src="images/bracket.png" alt="" class="center-img-alt">
+            </td>
+            <td class="td-rowspan-4">
+              <h4 class="h4-blue">Algunos proyectos son temporales</h4>
+              <p class="content-p-nomargin">y se requiere del apoyo de expertos para implementarlos.</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h4 class="h4-blue">No todo el personal tiene la experiencia necesaria</h4>
+              <p class="content-p-nomargin">para desarrollar tareas especializadas.</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h4 class="h4-blue">Las curvas de aprendizaje pueden ser prolongadas</h4>
+              <p class="content-p-nomargin">y pueden generar desgaste en la organización.</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h4 class="h4-blue">Falta de aplicación de metodologías</h4>
+              <p class="content-p-nomargin">que disminuye la productividad del personal.</p>
+            </td>
+          </tr>
+        </table>
+
+      </div>
+      <div class="light-blue-box-div">
+        <table width="100%" cellspacing="0">
+          <tr>
+            <td width="50%">
+              <h2 class="h2-white-alt">Solución</h2>
+              <p class="content-p-white-centered">Contamos con consultores especializados y comprometidos, expertos en diversos temas para solucionar las necesidades específicas de su organización. Nos especializamos en Gestión de Proyectos, Tecnología Microsoft para Gestión de Proyectos y Administración del Cambio.</p>
+            </td>
+            <td width="50%">
+              <img src="images/implementacion.jpg" alt="" class="center-img" style="float:right">
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="h2div" id="gestion">
+        <h2>1. Gestión de Proyectos</h2>
+      </div>
+      <p class="content-special-p">Damos seguimiento al ciclo de vida de iniciativas, portafolio, programas y proyectos, en diferentes ámbitos y prácticas de gestión:</p>
+      <ul>
+        <li class="content-li-p">Predictivos</li>
+        <li class="content-li-p">Adaptativos (ágiles o híbridos)</li>
+      </ul>
+      <div class="h2div" id="tecnologia">
+        <h2>2. Tecnología Microsoft para Gestión de Proyectos</h2>
+      </div>
+      <p class="content-special-p">Apoyar a nuestros clientes con especialistas en procesos de implementación de Tecnología Microsoft:</p>
+      <ul>
+        <li class="content-li-p">Project Online y Enterprise Project Management (EPM) </li>
+        <li class="content-li-p">Teams</li>
+        <li class="content-li-p">Power BI</li>
+      </ul>
+      <div class="h2div" id="administracion">
+        <h2>3. Administración del Cambio</h2>
+      </div>
+      <p class="content-special-p">Apoyamos a nuestros clientes a adaptarse al cambio con los pilares de nuestra metodología People & Change: comunicación, capacitación, patrocinio y sensibilización, basados en el estándar internacional de <span class="span-italic">Prosci.</span></p>
+      <h2 class="h2-centered-bigger">Beneficios</h2>
+      <div class="beneficios-div">
+        <table width="100%">
+          <tr>
+            <td width="47%" class="align-content-top">
+              <h4 class="h4-light-blue">Contamos con coaches</h4>
+              <p class="content-p-lineheight-right">que respaldan el desempeño de nuestros consultores para garantizar un servicio de calidad.</p>
+            </td>
+            <td width="6%" rowspan="2">
+              <div class="vl"></div>
+            </td>
+            <td width="47%">
+              <h4 class="h4-light-blue-alt">Reduce la curva de aprendizaje inicial</h4>
+              <p class="content-p-lineheight-left">en Gestión de Proyectos, Tecnología <span>Microsoft</span> y Administración del Cambio.</p>
+            </td>
+          </tr>
+          <tr>
+            <td width="47%">
+              <h4 class="h4-light-blue">Facilita la transferencia</h4>
+              <p class="content-p-lineheight-right">de conocimiento.</p>
+            </td>
+            <td width="47%">
+              <h4 class="h4-light-blue-alt">Nuestros expertos reducen los cuellos de botella</h4>
+              <p class="content-p-lineheight-left">y juegan como intermediarios entre las diferentes áreas.</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <img src="images/implementacion2.jpg" alt="" width="100%">
     </div>
   </div>
-  <div class="main-content-div">
-    <div class="blue-box-div">
-      <table>
-        <tr>
-          <td width="50%">
-            <h2 class="h2-white">Implementación con Expertos</h2>
-          </td>
-          <td>
-            <p class="content-p-white">Actualmente las organizaciones requieren apoyo en la implementación de sus proyectos a través de <span class="span-bold">expertos que contribuyen a la productividad</span> con una baja curva de aprendizaje y compromiso de servicio.</p>
-          </td>
-        </tr>
-      </table>
-    </div>
-    <div class="retos-div">
-      <table width="100%">
-        <tr>
-          <td class="td-rowspan-4" rowspan="4"><h2 class="h2-centered">RETOS DE LAS<br/> ORGANIZACIONES</h2></td>
-          <td width="10%" rowspan="4">
-            <img src="images/bracket.png" alt="" class="center-img-alt">
-          </td>
-          <td class="td-rowspan-4">
-            <h4 class="h4-blue">Algunos proyectos son temporales</h4>
-            <p class="content-p-nomargin">y se requiere del apoyo de expertos para implementarlos.</p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <h4 class="h4-blue">No todo el personal tiene la experiencia necesaria</h4>
-            <p class="content-p-nomargin">para desarrollar tareas especializadas.</p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <h4 class="h4-blue">Las curvas de aprendizaje pueden ser prolongadas</h4>
-            <p class="content-p-nomargin">y pueden generar desgaste en la organización.</p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <h4 class="h4-blue">Falta de aplicación de metodologías</h4>
-            <p class="content-p-nomargin">que disminuye la productividad del personal.</p>
-          </td>
-        </tr>
-      </table>
-
-    </div>
-    <div class="light-blue-box-div">
-      <table width="100%" cellspacing="0">
-        <tr>
-          <td width="50%">
-            <h2 class="h2-white-alt">Solución</h2>
-            <p class="content-p-white-centered">Contamos con consultores especializados y comprometidos, expertos en diversos temas para solucionar las necesidades específicas de su organización. Nos especializamos en Gestión de Proyectos, Tecnología Microsoft para Gestión de Proyectos y Administración del Cambio.</p>
-          </td>
-          <td width="50%">
-            <img src="images/implementacion.jpg" alt="" class="center-img" style="float:right">
-          </td>
-        </tr>
-      </table>
-    </div>
-    <div class="h2div" id="gestion">
-      <h2>1. Gestión de Proyectos</h2>
-    </div>
-    <p class="content-special-p">Damos seguimiento al ciclo de vida de iniciativas, portafolio, programas y proyectos, en diferentes ámbitos y prácticas de gestión:</p>
-    <ul>
-      <li class="content-li-p">Predictivos</li>
-      <li class="content-li-p">Adaptativos (ágiles o híbridos)</li>
-    </ul>
-    <div class="h2div" id="tecnologia">
-      <h2>2. Tecnología Microsoft para Gestión de Proyectos</h2>
-    </div>
-    <p class="content-special-p">Apoyar a nuestros clientes con especialistas en procesos de implementación de Tecnología Microsoft:</p>
-    <ul>
-      <li class="content-li-p">Project Online y Enterprise Project Management (EPM) </li>
-      <li class="content-li-p">Teams</li>
-      <li class="content-li-p">Power BI</li>
-    </ul>
-    <div class="h2div" id="administracion">
-      <h2>3. Administración del Cambio</h2>
-    </div>
-    <p class="content-special-p">Apoyamos a nuestros clientes a adaptarse al cambio con los pilares de nuestra metodología People & Change: comunicación, capacitación, patrocinio y sensibilización, basados en el estándar internacional de <span class="span-italic">Prosci.</span></p>
-    <h2 class="h2-centered-bigger">Beneficios</h2>
-    <div class="beneficios-div">
-      <table width="100%">
-        <tr>
-          <td width="47%" class="align-content-top">
-            <h4 class="h4-light-blue">Contamos con coaches</h4>
-            <p class="content-p-lineheight-right">que respaldan el desempeño de nuestros consultores para garantizar un servicio de calidad.</p>
-          </td>
-          <td width="6%" rowspan="2">
-            <div class="vl"></div>
-          </td>
-          <td width="47%">
-            <h4 class="h4-light-blue-alt">Reduce la curva de aprendizaje inicial</h4>
-            <p class="content-p-lineheight-left">en Gestión de Proyectos, Tecnología <span>Microsoft</span> y Administración del Cambio.</p>
-          </td>
-        </tr>
-        <tr>
-          <td width="47%">
-            <h4 class="h4-light-blue">Facilita la transferencia</h4>
-            <p class="content-p-lineheight-right">de conocimiento.</p>
-          </td>
-          <td width="47%">
-            <h4 class="h4-light-blue-alt">Nuestros expertos apoyan a reducir los cuellos de botella</h4>
-            <p class="content-p-lineheight-left">y juegan como intermediarios entre las diferentes áreas.</p>
-          </td>
-        </tr>
-      </table>
-    </div>
-    <img src="images/implementacion2.jpg" alt="" width="100%">
+  <div>
+    <section>
+      <div id="data-container"></div>
+      <div id="pagination"></div>
+    </section>
   </div>
   <footer>
     <div class="footer-div">
@@ -234,8 +239,6 @@
           </td>
           <td class="footer-td">
             <div class="footer-right-div">
-              <h4>Estamos en</h4>
-              <a href="#"><img src="images/linkedin.png" alt="" class="social-img"></a>
               <h4>Informacion Legal</h4>
               <a class="footer-a" href="aviso-de-privacidad.html">
                 <p>Aviso de privacidad Grupo ASTRAN</p>
@@ -252,6 +255,10 @@
       </table>
     </div>
   </footer>
+  <script src="js/cdn/jquery-3.5.0.js"></script>
+  <script src="js/cdn/jquery-ui.js"></script>
+  <script src="js/pagination.js"></script>
+  <script src="js/search.js"></script>
 </body>
 
 </html>

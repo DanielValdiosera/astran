@@ -6,6 +6,9 @@
   <title>Astran – Contacto</title>
   <link rel="icon" href="favicon.png">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/fdeeb5d331e922ce2f968bd0c43d90d6.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet"/>
+
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
 </head>
 
@@ -22,20 +25,15 @@
             <ul>
               <li><a href="inteligencia-empresarial.html">INTELIGENCIA EMPRESARIAL</a></li>
               <li><a href="optimizacion-portafolio-iniciativas.html" class="special-a2">OPTIMIZACIÓN DEL PORTAFOLIO DE INICIATIVAS</a></li>
-              <li><a href="planeacion-seguimiento-proyectos.html" class="special-a">PLANEACIÓN Y SEGUIMIENTO DE PROYECTOS</a>
-                <ul>
-                  <li><a href="planeacion-seguimiento-proyectos.html">PREDICTIVOS</a></li>
-                  <li><a href="planeacion-seguimiento-proyectos.html">ADAPTATIVOS (ÁGILES E HÍBRIDOS)</a></li>
-                </ul>
-              </li>
-              <li><a href="gestion-beneficios.html">GÉSTION DE BENEFICIOS</a></li>
+              <li><a href="planeacion-seguimiento-proyectos.html" class="special-a">PLANEACIÓN Y SEGUIMIENTO DE PROYECTOS<a></li>
+              <li><a href="gestion-beneficios.html">GESTIÓN DE BENEFICIOS</a></li>
               <li><a href="administracion-cambio.html">ADMINISTRACIÓN DEL CAMBIO</a></li>
             </ul>
           </li>
           <li><a href="implementacion-expertos.html">IMPLEMENTACIÓN</a>
             <ul>
               <li><a href="implementacion-especialidades.html#gestion">GESTIÓN DE PROYECTOS</a></li>
-              <li><a href="implementacion-especialidades.html#tecnologia" class="special-a">TECNOLOGÍA MICROSOFT PARA GESTIÓN DE PROYECTOS</a></li>
+              <li><a href="implementacion-especialidades.html#tecnologia" class="special-a">TECNOLOGÍA MICROSOFT<br />PARA GESTIÓN DE PROYECTOS</a></li>
               <li><a href="implementacion-especialidades.html#administracion">ADMINISTRACIÓN DEL CAMBIO</a></li>
             </ul>
           </li>
@@ -79,46 +77,61 @@
       <li class="main-li"><a href="articulos.html">ARTÍCULOS</a></li>
       <li class="main-li"><a href="contacto.html" class="selected-a">CONTACTO</a></li>
       <li class="main-li">
-        <img class="search-img" src="images/search-blue.png" alt="" width="20px">
+        <span onclick="search()" style="cursor: pointer;"><img class="search-img" src="images/search-blue.png" alt="" width="20px"></span>
       </li>
       <li class="main-li">
-        <form class="" action="index.html" method="post">
-          <input class="search-input" type="text" name="" value="">
-        </form>
+        <span class="ui-widget">
+          <input id="tags" class="search-input">
+          <span id="search"></span>
+        </span>
       </li>
     </ul>
   </nav>
-  <div class="side-btn-div" type="button" name="button">
-    <div class="tooltip">
-      <span class="tooltiptext">Envíenos <br />un Correo</span>
-      <a href="#"><img alt="Contacto" class="side-img" src="images/mail-white.png"></a>
+  <div id="content-container">
+    <div class="side-btn-div" type="button" name="button">
+      <div class="tooltip">
+        <span class="tooltiptext">Envíenos <br />un Correo</span>
+        <a href="#"><img alt="Contacto" class="side-img" src="images/mail-white.png"></a>
+      </div>
+      <div class="tooltip">
+        <span class="tooltiptext">Llámenos al <br />+52 (55) 5336-4375</span>
+        <a href="#"><img alt="Contacto" class="side-img" src="images/phone-white.png"></a>
+      </div>
     </div>
-    <div class="tooltip">
-      <span class="tooltiptext">Llámenos al <br />+52 (55) 5336-4375</span>
-      <a href="#"><img alt="Contacto" class="side-img" src="images/phone-white.png"></a>
+    <div class="main-content-div">
+      <br />
+      <div class="form-div" id="formContacto">
+        <form class="contact-form">
+          <label for="nombre">Su nombre (requerido)</label>
+          <div id="validateName"></div>
+          <input type="text" name="nombre" id="nombre" value=""><br>
+          <label for="telefono">Su teléfono</label>
+          <div id="validatePhone"></div>
+          <input type="number" name="telefono" id="telefono" value=""><br>
+          <label for="">Su correo electrónico (requerido)</label>
+          <div id="validateEmail"></div>
+          <input type="email" name="email" id="email" value=""><br>
+
+          <label for="">Su asunto</label><br>
+          <input type="text" name="asunto" id="asunto" value=""><br>
+          <label for="">Su mensaje</label><br>
+          <textarea name="comentario" rows="10" id="comentario" cols="30"></textarea><br>
+          <button class="btn1"  type="submit" id="sendMail" name="button"> Enviar
+
+          </button>
+          <div class="align-right-div">
+            <button class="btn2" type="submit" name="button" id="claims">Solicitud de reclamo de datos</button>
+          </div>
+
+        </form>
+      </div>
     </div>
   </div>
-  <div class="main-content-div">
-    <br />
-    <div class="form-div">
-      <form class="contact-form" action="index.html" method="post">
-        <label for="nombre">Su nombre (requerido)</label><br>
-        <input type="text" name="" value=""><br>
-        <label for="telefono">Su teléfono</label><br>
-        <input type="number" name="" value=""><br>
-        <label for="">Su correo electrónico (requerido)</label><br>
-        <input type="email" name="" value=""><br>
-        <label for="">Su asunto</label><br>
-        <input type="text" name="" value=""><br>
-        <label for="">Su mensaje</label><br>
-        <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
-        <button class="btn1"type="submit" name="button">Enviar</button>
-        <div class="align-right-div">
-          <button type="button" class="btn2" id="claims">Solicitud de reclamo de datos</button>
-        </div>
-
-      </form>
-    </div>
+  <div>
+    <section>
+      <div id="data-container"></div>
+      <div id="pagination"></div>
+    </section>
   </div>
   <footer>
     <div class="footer-div">
@@ -146,8 +159,6 @@
           </td>
           <td class="footer-td">
             <div class="footer-right-div">
-              <h4>Estamos en</h4>
-              <a href="#"><img src="images/linkedin.png" alt="" class="social-img"></a>
               <h4>Informacion Legal</h4>
               <a class="footer-a" href="aviso-de-privacidad.html">
                 <p>Aviso de privacidad Grupo ASTRAN</p>
@@ -165,6 +176,10 @@
     </div>
   </footer>
   <script src="js/cdn/jquery-3.5.0.js"></script>
+  <script src="js/cdn/jquery-ui.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
+  <script src="js/pagination.js"></script>
+  <script src="js/search.js"></script>
   <script src="js/0d87b5c76b4c480a107b621cc67f469d.js"></script>
 </body>
 
