@@ -204,6 +204,17 @@ h2 {
   font-family: 'd-din_condensedregular';
 }
 
+.h2-white-centered {
+  font-size: 3rem;
+  padding: 10px;
+  font-style: normal;
+  font-weight: lighter;
+  color: white;
+  margin: auto;
+  text-align: center;
+  font-family: 'd-din_condensedregular';
+}
+
 .h2-white-small {
   font-size: 2rem;
   padding: 10px;
@@ -523,7 +534,7 @@ a {
 }
 
 .a-alt:hover {
-  color: #186088;
+  color: #c9a74c;
   text-decoration: none;
 }
 
@@ -896,6 +907,16 @@ a {
   width: 50%;
 }
 
+.nice-img-alt2 {
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
 .nice-h3 {
   font-size: 2rem;
   font-weight: bolder;
@@ -1174,4 +1195,22 @@ a {
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 60px;
+}
+
+.table-alt {
+  margin: auto;
+}
+
+.white-small {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: lighter;
+  color: white;
+  margin-left: 1px;
+  margin-top: 1px;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-align: left;
+  font-family: 'd-din_condensedregular';
+  position: absolute;
 }
